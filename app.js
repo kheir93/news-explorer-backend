@@ -45,7 +45,8 @@ app.use(requestLogger);
 app.use((req, res, next) => {
   res.header(
     'Access-Control-Allow-Origin',
-    'http://localhost:3001'
+    // 'http://localhost:3000'
+    'https://api.students.nomoredomainssbs.ru'
   );
   res.header(
     'Access-Control-Allow-Headers',
